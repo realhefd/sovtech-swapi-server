@@ -1,0 +1,17 @@
+{
+  "name": "sovtech-swapi-server",
+  "version": "1.0.0",
+  "description": "Sovtech Test - Apollo GraphQL Server for Star Wars API",
+  "main": "index.js",
+  "repository": "git@github.com:realhefd/sovtech-swapi-apollo.git",
+  "author": "Philip Onyango <philip.onyango95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
