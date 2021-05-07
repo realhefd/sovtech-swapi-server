@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "apollo-datasource-rest": "^0.13.0",
+    "apollo-server": "^2.24.0",
     "apollo-server-express": "^2.24.0",
     "dotenv": "^9.0.0",
     "express": "^4.17.1",
