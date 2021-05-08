@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Sovtech Test - Apollo GraphQL Server for Star Wars API",
   "main": "index.ts",
-  "repository": "git@github.com:realhefd/sovtech-swapi-apollo.git",
+  "repository": "git@github.com:realhefd/sovtech-swapi-server.git",
   "author": "Philip Onyango <philip.onyango95@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
   "dependencies": {
     "apollo-datasource-rest": "^0.13.0",
     "apollo-server": "^2.24.0",
@@ -17,8 +20,5 @@
     "nodemon": "^2.0.7",
     "typescript": "^4.2.4",
     "ts-node": "^9.1.1"
-  },
-  "scripts": {
-    "dev": "nodemon index.ts"
   }
 }
