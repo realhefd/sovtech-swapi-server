@@ -2,7 +2,7 @@
 
 This project creates an Apollo GraphQL API that wraps the Star Wars API https://swapi.dev
 
-> This Application is built with **NodeJS** and **TypeScript**
+> This Application is built with **`NodeJS`** and **`TypeScript`**
 
 ### Live GraphQL Playground
 https://oi9z9.sse.codesandbox.io/
@@ -19,10 +19,7 @@ $ yarn install
 
 $ yarn dev
 ```
-Executing `<yarn dev>` will launch the server and open the GraphQL playground at http://localhost:4000 
-##
-
-##
+Executing **`yarn dev`** will launch the server and open the GraphQL playground at http://localhost:4000 
 #
 ## Project Instructions
 
