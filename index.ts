@@ -6,7 +6,11 @@ const { resolvers} = require('./resolvers')
 const server: any = new ApolloServer({
     typeDefs,
     resolvers,
-    dataSources: new StarWarsAPI()
+    dataSources: () => {
+      return {
+        people: new StarWarsAPI()
+      }
+    }
   }
 );
 
