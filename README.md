@@ -5,7 +5,7 @@ This project creates an Apollo GraphQL API that wraps the Star Wars API https://
 > This Application is built with **`NodeJS`** and **`TypeScript`**
 
 ### Live GraphQL Playground
-https://oi9z9.sse.codesandbox.io/
+https://ngu3u.sse.codesandbox.io/
 #
 ### Tools Used
 - GraphQL
