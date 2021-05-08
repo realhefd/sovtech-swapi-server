@@ -7,7 +7,7 @@ const { gql } = require('apollo-server');
  */
 export const typeDefs: string | string[] | any = gql`
 "Query type that describes the data that will be used for the people and details pages"
-type Query{
+type Query {
   getPeople(page: Int): People!
   getPerson(name: String): People!
 }
@@ -21,7 +21,7 @@ type People {
 }
 
 "HomeWorld type: Describes the home planet of the characters, only relevant fields picked"
-type HomeWorld{
+type HomeWorld {
   name: String!
   climate: String!
   diameter: String!
@@ -29,7 +29,7 @@ type HomeWorld{
 }
 
 "Person type: Describes a specific person within an array of persons"
-type Person{
+type Person {
   name: String!
   mass: String!
   height: String!
