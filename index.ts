@@ -5,13 +5,8 @@ const { typeDefs } = require('./schema');
 
 // Pass schema definition, resolvers and data sources instance to the ApolloServer constructor
 const server: any = new ApolloServer({
-    typeDefs,
-    resolvers,
-    dataSources: () => {
-      return {
-        people: new StarWarsAPI()
-      };
-    }
+    typeDefs, resolvers,
+    dataSources: () => ({ starWarsAPI: new StarWarsAPI() })
   }
 );
 
