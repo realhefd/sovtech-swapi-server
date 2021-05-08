@@ -1,13 +1,29 @@
-# Project description: Sovtech Apollo GraphQL Server
+# Sovtech Apollo GraphQL Server Test
 
-This is the backend application for the react frontend app
+This project creates an Apollo GraphQL API that wraps the Star Wars API https://swapi.dev
 
+> This Application is built with **NodeJS** and **TypeScript**
 
-> This Application will runs on an Apollo GraphQL Backend, consuming the Starwsrs API endpoints
+### Live GraphQL Playground
+https://oi9z9.sse.codesandbox.io/
+#
+### Tools Used
+- GraphQL
+- Apollo Server
+- Apollo Datasource Rest
+#
+## Project Setup
+Clone this repository and **`cd`** into the project directory then use the following instructions to setup the project and run the application
+```
+$ yarn install
 
+$ yarn dev
+```
+Executing `<yarn dev>` will launch the server and open the GraphQL playground at http://localhost:4000 
+##
 
-Please use the following instructions to setup the project and run the application
-
+##
+#
 ## Project Instructions
 
 - You should develop an Apollo GraphQL API
