@@ -1,7 +1,8 @@
 const { StarWarsAPI } = require('./datasources/people');
 const { ApolloServer } = require('apollo-server');
-const { resolvers } = require('./resolvers');
-const { typeDefs } = require('./schema');
+// const { resolvers } = require('./resolvers');
+// const { typeDefs } = require('./schema');
+const { typeDefs, resolvers } = require('./graphql/index');
 
 // Pass schema definition, resolvers and data sources instance to the ApolloServer constructor
 const server: any = new ApolloServer({
